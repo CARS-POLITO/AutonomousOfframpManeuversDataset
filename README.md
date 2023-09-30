@@ -1,7 +1,10 @@
 # Autonomous Off-ramp Maneuvers Dataset
 
 
-This repository contains the dataset and a description of the data and labels used in [Quantifying the LiDAR Sim-to-Real Domain Shift: A Detailed Investigation Using Object Detectors and Analyzing Point Clouds at Target-Level](https://link.to.paper).
+This repository contains the dataset and a description of the data and labels used in [Estimation of passenger comfort level for autonomous highway off-ramp maneuvers](https://link.to.paper).
+This study is conducted in a real-world environment, with the use of specific testing equipment. The study focuses on the analysis of the vehicle's comfort during autonomous off-ramp maneuvers performed by the vehicle control system. All tests are carried out on Norwegian highways. Each tested highway exit had to be carried out under **two different operating conditions** - **driving manually** for calibration purposes 
+
+
 The dataset includes 12,000 labeled point clouds in total, whereas 6,000 are captured during the [Indy
 Autonomous Challenge](https://www.indyautonomouschallenge.com/) in Las Vegas in 2022. The other subset of 6,000 samples is generated in
 simulation and includes the same scenarios, objects, and environment as the real counterpart.
