@@ -2,15 +2,7 @@
 
 
 This repository contains the dataset and a description of the data and labels used in [Estimation of passenger comfort level for autonomous highway off-ramp maneuvers](https://link.to.paper).
-This study is conducted in a real-world environment, with the use of specific testing equipment. The study focuses on the analysis of the vehicle's comfort during autonomous off-ramp maneuvers performed by the vehicle control system. All tests are carried out on Norwegian highways. Each tested highway exit had to be carried out under **two different operating conditions** - **driving manually** for calibration purposes 
-
-
-The dataset includes 12,000 labeled point clouds in total, whereas 6,000 are captured during the [Indy
-Autonomous Challenge](https://www.indyautonomouschallenge.com/) in Las Vegas in 2022. The other subset of 6,000 samples is generated in
-simulation and includes the same scenarios, objects, and environment as the real counterpart.
-Each point cloud file (.pcd) contains the fused point clouds of three LiDAR sensors, covering 360°
-horizontally in total. The labels for each point cloud (.txt) are in the same format as the [labels of the
-KITTI dataset](https://github.com/bostondiditeam/kitti/blob/master/resources/devkit_object/readme.txt).
+This study is conducted in a real-world environment, with the use of specific testing equipment. The study focuses on the analysis of the vehicle's comfort during autonomous off-ramp maneuvers performed by the vehicle control system. All tests are carried out on Norwegian highways. Each tested highway exit had to be carried out under **two different operating conditions** - **driving manually** for calibration purposes and **driving under vehicle autonomous control action**, called **AD-SW** mode.
 
 As this dataset is distribution-aligned, i.e., every real point cloud has a scenario-identical simulated counterpart with the same indx, this dataset can be used to study the domain shift or evaluate the performance of domain adaptation algorithms. 
 
