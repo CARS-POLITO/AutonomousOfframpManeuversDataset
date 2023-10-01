@@ -2,8 +2,8 @@
 
 
 This repository contains the dataset and a description of the data used in [Estimation of passenger comfort level for autonomous highway off-ramp maneuvers](https://link.to.paper).
-This experimental dataset is composed of off-ramp exit maneuvers traveled along the Norwegian highways in manual and automated driving. Data are gathered on a [NIO](https://www.nio.com/) BEV featured with L2+ driving automation functions.
-This study is conducted in a real-world environment, with the use of specific testing equipment. The study focuses on the analysis of the vehicle's comfort during autonomous off-ramp maneuvers performed by the vehicle control system. All tests are carried out on Norwegian highways. Each tested highway exit had to be carried out under **two different operating conditions** - **driving manually** for calibration purposes and **driving under vehicle autonomous control action**, here called **AD-SW** mode. Data are gathered in the surroundings of Oslo, Bergen, Stavanger and Kristiansand.
+This experimental dataset is composed of off-ramp exit maneuvers traveled along the Norwegian highways. Data are gathered on a [NIO](https://www.nio.com/) Battery Electric Vehicle (BEV) featured with L2+ driving automation functions. This study is conducted in a real-world environment, with the use of specific testing equipment. 
+Each tested highway exit had to be carried out under **two different operating conditions** - **driving manually** for calibration purposes and **driving under vehicle autonomous control action**, here called **AD-SW** mode. Data are gathered in the surroundings of Oslo, Bergen, Stavanger and Kristiansand.
 
 
 As this dataset is distribution-aligned, i.e., every real point cloud has a scenario-identical simulated counterpart with the same indx, this dataset can be used to study the domain shift or evaluate the performance of domain adaptation algorithms. 
