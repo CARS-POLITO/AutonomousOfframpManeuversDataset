@@ -9,7 +9,7 @@ This dataset was used for assessing the level of comfort associated with autonom
 
 As this dataset is distribution-aligned, i.e., every real point cloud has a scenario-identical simulated counterpart with the same indx, this dataset can be used to study the domain shift or evaluate the performance of domain adaptation algorithms. 
 
-![Real point cloud sample](docs/testlocations.png)![Sim point cloud sample](docs/point_cloud_sim.png)
+![Real point cloud sample](testlocations.png)![Sim point cloud sample](docs/point_cloud_sim.png)
 
 Examples of a real (red) and sim (blue) point cloud showing the same scenario from our dataset.
 
