@@ -8,7 +8,7 @@ This dataset was used for assessing the level of comfort associated with autonom
 
 ![exterimental_test_location](docs/testlocations.png)   ![vehicle_view](docs/view_vehicle.png)
 
-Examples of a real (red) and sim (blue) point cloud showing the same scenario from our dataset.
+Figure on the left: Locations of tested highway off-ramps. Figure on the right: Scene view camera output to grasp the real-world scenario under which the vehicle is tested.
 
 ## Dataset
 Please follow this [link](https://mediatum.ub.tum.de/1695833?id=1695833&change_language=en) to download the dataset (~12GB).
