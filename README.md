@@ -6,10 +6,7 @@ This experimental dataset is composed of off-ramp exit maneuvers traveled along 
 
 This dataset was used for assessing the level of comfort associated with autonomous highway off-ramp maneuver. As a consequence, each tested highway exit had to be carried out under **two different operating conditions** - **driving manually** for calibration purposes and **driving under vehicle autonomous control action**, here called **AD-SW** mode. 
 
-
-As this dataset is distribution-aligned, i.e., every real point cloud has a scenario-identical simulated counterpart with the same indx, this dataset can be used to study the domain shift or evaluate the performance of domain adaptation algorithms. 
-
-![Real point cloud sample](docs/testlocations.png)![Sim point cloud sample](docs/view_vehicle.png)
+![exterimental_test_location](docs/testlocations.png) ![vehicle_view](docs/view_vehicle.png)
 
 Examples of a real (red) and sim (blue) point cloud showing the same scenario from our dataset.
 
