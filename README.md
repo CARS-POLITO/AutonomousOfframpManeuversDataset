@@ -11,10 +11,10 @@ This dataset is used for assessing the level of comfort associated with autonomo
 Figure on the left: Locations of tested highway off-ramp exits. Figure on the right: Scene view camera output during experimental tests on Norwegian highways.
 
 ## Dataset
-Please follow this [link](https://www.cars.polito.it/) to download the dataset (~xGB).
+Please follow this [link](https://www.cars.polito.it/) to download the dataset (~5MB).
 
 ## Dataset structure
-The dataset contains two main folders, real and sim, that are equally structured. Each contains a subdirectory *data* and *ImageSets*. *data* contains 6,000 point clouds in the .pcd format and 6,000 labels with the corresponding index in the .txt format similar to the [KITTI label format](https://github.com/bostondiditeam/kitti/blob/master/resources/devkit_object/readme.txt). *ImageSet* contains three .txt files, train.txt, val.txt, and test.txt, listing the indices of the point clouds used for training, validation, and testing. Our split is 4000, 1000, 1000 for training, validation, and testing, respectively.  
+The dataset has one folder, called **Maneuvers**, containing all the tested maneuvers, and a Matlab script file to (Data_setup.m). Each contains a subdirectory *data* and *ImageSets*. *data* contains 6,000 point clouds in the .pcd format and 6,000 labels with the corresponding index in the .txt format similar to the [KITTI label format](https://github.com/bostondiditeam/kitti/blob/master/resources/devkit_object/readme.txt). *ImageSet* contains three .txt files, train.txt, val.txt, and test.txt, listing the indices of the point clouds used for training, validation, and testing. Our split is 4000, 1000, 1000 for training, validation, and testing, respectively.  
 ```
 Sim2RealDistributionAlignedDataset
 ├── real
