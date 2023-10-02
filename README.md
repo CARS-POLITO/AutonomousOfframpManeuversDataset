@@ -8,7 +8,7 @@ This dataset is used for assessing the level of comfort associated with autonomo
 
 ![exterimental_test_location](docs/testlocations.png)   ![vehicle_view](docs/view_vehicle.png)
 
-Figure on the left: Locations of tested highway off-ramp exits. Figure on the right: Scene view camera output to grasp the real-world scenario under which the vehicle is tested.
+Figure on the left: Locations of tested highway off-ramp exits. Figure on the right: Scene view camera output during experimental tests on Norwegian highways.
 
 ## Dataset
 Please follow this [link](https://www.cars.polito.it/) to download the dataset (~xGB).
