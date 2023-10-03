@@ -17,38 +17,17 @@ Scene view camera output recorded during experimental tests.
 Please follow this [link](https://www.cars.polito.it/) to download the dataset (~5MB).
 
 ## Dataset structure
-The dataset has one folder, called **Maneuvers**, containing all the tested maneuvers, and a **Matlab script file** used to analyze the selected data (*Data_setup.m*). The **Maneuvers** folder contains 82 subdirectories called ***data_yearmonthdayTagxxxxxx***. Each folder contains the associated *.mat* with the measured signals logged during experimental testing (***signals_yearmonthdayTagxxxxxx***).
-```
-Sim2RealDistributionAlignedDataset
-├── real
-│   ├── data
-│   │   │── pcl
-│   │   │   │── 000000.pcd
-│   │   │   │── ...
-│   │   │   │── 029995.pcd
-│   │   │── label
-│   │   │   │── 000000.txt
-│   │   │   │── ...
-│   │   │   │── 029995.txt
-│   ├── ImageSets
-│   │   │── train.txt
-│   │   │── val.txt
-│   │   │── test.txt
-├── sim
-│   ├── data
-│   │   │── pcl
-│   │   │   │── 000000.pcd
-│   │   │   │── ...
-│   │   │   │── 029995.pcd
-│   │   │── label
-│   │   │   │── 000000.txt
-│   │   │   │── ...
-│   │   │   │── 029995.txt
-│   ├── ImageSets
-│   │   │── train.txt
-│   │   │── val.txt
-│   │   │── test.txt
+The dataset has one folder, called **Maneuvers**, containing all the tested maneuvers, and a **Matlab script file** used to analyze the selected data (*Data_setup.m*). The **Maneuvers** folder contains 82 subdirectories called ***data_yearmonthdayTagxxxxxx***. Each folder contains the associated *.mat* file with the measured signals logged during experimental testing (***signals_yearmonthdayTagxxxxxx***).
 
+```
+Maneuvers
+├── data_yearmonthdayTagxxxxxx
+│   ├── signals_yearmonthdayTagxxxxxx
+│   │   │── MeasList_LatA.. (Lateral acceleration signal [gs^{-2}]
+│   │   │── MeasList_LgtA.. (Longitudinal acceleration signal [gs^{-2}]
+│   │   │── MeasList_VehSpd.. (Vehicle speed signal [kmh^{-1}]
+│   │   │── MeasList_GPS_Longitude.. (Longitude position signal [° ' '']
+│   │   │── MeasList_GPS_Latitude.. (Latitude position signal [° ' '']
 ```
 
 ## Data description
