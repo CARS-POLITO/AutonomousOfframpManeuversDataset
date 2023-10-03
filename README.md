@@ -52,7 +52,7 @@ Sim2RealDistributionAlignedDataset
 ```
 
 ## Data description
-Please check our paper for a detailed data description. The following provides a brief summary of the real and sim data. 
+Please check our paper for a detailed data description. 
 
 ### Real dataset
 The real dataset was captured during  the [Indy Autonomous Challenge](https://www.indyautonomouschallenge.com/) in Las Vegas in 2022. The vehicle used for data generation was an autonomous AV-21 equipped with three LiDAR sensors, each covering 120° horizontally to cover 360° in total. The .pcd files include the fused point clouds. Labeling was done semi-automatically using the GPS positions of the ego-vehicle and the other vehicles on track. The positions were refined using the point cloud distribution in the proximity of the initially placed 3D bounding boxes. 
@@ -69,14 +69,14 @@ Real (left) and sim (right) AV21 used for dataset generation
 If you find our work useful in your research, please consider citing:
 
     @ARTICLE{Huch23DomainShift,
-  	    author={Huch, Sebastian and Scalerandi, Luca and Rivera, Esteban and Lienkamp, Markus},
-  	    journal={IEEE Transactions on Intelligent Vehicles}, 
-  	    title={Quantifying the LiDAR Sim-to-Real Domain Shift: A Detailed Investigation Using Object Detectors and Analyzing Point Clouds at Target-Level}, 
-  	    year={2023},
+  	    author={Tramacere, Eugenio and Castellonos, Luis and Luciani, Sara and Urgesi, Paolo and Amati, Nicola},
+  	    journal={-}, 
+  	    title={Estimation of passenger comfort level for autonomous highway off-ramp maneuvers}, 
+  	    year={202x},
   	    volume={},
   	    number={},
-  	    pages={1-14},
-  	    doi={10.1109/TIV.2023.3251650}}
+  	    pages={-},
+  	    doi={-}}
 
 
 
