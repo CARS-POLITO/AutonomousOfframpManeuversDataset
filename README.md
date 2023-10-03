@@ -17,7 +17,7 @@ Scene view camera output recorded during experimental tests.
 Please follow this [link](https://www.cars.polito.it/) to download the dataset (~5MB).
 
 ## Dataset structure
-The dataset has one folder, called **Maneuvers**, containing all the tested maneuvers, and a Matlab script file to (Data_setup.m). Each contains a subdirectory *data* and *ImageSets*. *data* contains 6,000 point clouds in the .pcd format and 6,000 labels with the corresponding index in the .txt format similar to the [KITTI label format](https://github.com/bostondiditeam/kitti/blob/master/resources/devkit_object/readme.txt). *ImageSet* contains three .txt files, train.txt, val.txt, and test.txt, listing the indices of the point clouds used for training, validation, and testing. Our split is 4000, 1000, 1000 for training, validation, and testing, respectively.  
+The dataset has one folder, called **Maneuvers**, containing all the tested maneuvers, and a Matlab script file used to analyze the selected data (*Data_setup.m*). Each contains a subdirectory *data* and *ImageSets*. *data* contains 6,000 point clouds in the .pcd format and 6,000 labels with the corresponding index in the .txt format similar to the [KITTI label format](https://github.com/bostondiditeam/kitti/blob/master/resources/devkit_object/readme.txt). *ImageSet* contains three .txt files, train.txt, val.txt, and test.txt, listing the indices of the point clouds used for training, validation, and testing. Our split is 4000, 1000, 1000 for training, validation, and testing, respectively.  
 ```
 Sim2RealDistributionAlignedDataset
 ├── real
