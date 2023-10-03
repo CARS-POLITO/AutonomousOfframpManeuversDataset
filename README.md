@@ -68,7 +68,7 @@ Real (left) and sim (right) AV21 used for dataset generation
 ## Citation
 If you find our work useful in your research, please consider citing:
 
-    @ARTICLE{Huch23DomainShift,
+    @ARTICLE{Tramacerecomfort,
   	    author={Tramacere, Eugenio and Castellonos, Luis and Luciani, Sara and Urgesi, Paolo and Amati, Nicola},
   	    journal={-}, 
   	    title={Estimation of passenger comfort level for autonomous highway off-ramp maneuvers}, 
