@@ -77,17 +77,3 @@ If you find our work useful in your research, please consider citing:
   	    number={},
   	    pages={-},
   	    doi={-}}
-
-
-
-    @misc{Huch_S2R_DAD_2023, 
-        author = {Huch, Sebastian and  Scalerandi, Luca and  Rivera, Esteban and  Lienkamp, Markus},
-        title = {S2R-DAD: Sim-to-Real Distribution-Aligned Dataset},
-        publisher = {Technical University of Munich},
-        url = {https://mediatum.ub.tum.de/1695833},
-        type = {Dataset},
-        year = {2023},
-        doi = {10.14459/2023mp1695833},
-        keywords = {Sim-to-Real; LiDAR; Point Cloud; Domain Shift; Domain Adaptation},
-        language = {en},
-    }
