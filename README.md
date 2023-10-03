@@ -6,9 +6,12 @@ This experimental dataset is composed of off-ramp exit maneuvers traveled along 
 
 This dataset is used for assessing the level of comfort associated with autonomous highway off-ramp maneuvers. As a consequence, each tested highway exit had to be carried out under **two different operating conditions** - **driving manually** for calibration purposes and **driving under vehicle autonomous control action**, called **AD-SW (AutonomousDriving-Software)** mode. 
 
-![exterimental_test_location](docs/vehicledata.png)   ![vehicle_view](docs/view_vehicle.png)
+![exterimental_test_location](docs/vehicledata.png)  
+Example of logged vehicle speed, longitudinal and lateral acceleration along the highway off-ramp exit Salhus/Flaktveit on E16.
 
-Figure on the left: Locations of tested highway off-ramp exits. Figure on the right: Scene view camera output during experimental tests on Norwegian highways.
+![vehicle_view](docs/view_vehicle.png)
+
+ Figure on the right: Scene view camera output during experimental tests on Norwegian highways.
 
 ## Dataset
 Please follow this [link](https://www.cars.polito.it/) to download the dataset (~5MB).
