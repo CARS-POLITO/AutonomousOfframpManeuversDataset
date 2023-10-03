@@ -33,15 +33,10 @@ Maneuvers
 ## Data description
 Please check our paper for a detailed data description. 
 
-### Real dataset
-The real dataset was captured during  the [Indy Autonomous Challenge](https://www.indyautonomouschallenge.com/) in Las Vegas in 2022. The vehicle used for data generation was an autonomous AV-21 equipped with three LiDAR sensors, each covering 120° horizontally to cover 360° in total. The .pcd files include the fused point clouds. Labeling was done semi-automatically using the GPS positions of the ego-vehicle and the other vehicles on track. The positions were refined using the point cloud distribution in the proximity of the initially placed 3D bounding boxes. 
+### Signals recording
+Given the extended duration of each test, it becomes imperative to employ a methodology for extracting pertinent timestamps from the data. In our particular study, a tagging approach was implemented to fulfill this requirement. Therefore, when the driver activates the vehicle's right turn indicator, the autonomous control system is triggered to initiate the self-driving off-ramp manoeuvre. This is when manoeuvre data logging commences. Actually, active steering towards the highway deceleration ramp is triggered by the right turn indicator. Rather, the manoeuvre data logging ends when the autonomous controller deceleration request drops to 0, at which point the driver regains complete control of the vehicle, and active guidance is turned off.
 
-### Sim dataset
-The sim dataset is distribution-aligned, i.e., scenario-identical, with the real dataset. It was created using Unity and a custom LiDAR sensor model. The environment models the same racetrack as in the real data. The scenarios extracted from the real dataset were replayed in this simulation environment and point clouds were captured using the custom LiDAR sensor model. The labels were generated automatically in Unity.  
-
-![Real AV-21](docs/av21_real.png)![Real AV-21](docs/av21_sim.png)
-
-Real (left) and sim (right) AV21 used for dataset generation
+![Tagging procedure](docs/taggingprocedure.png)
 
 
 ## Citation
