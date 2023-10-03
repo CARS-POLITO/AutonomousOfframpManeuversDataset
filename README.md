@@ -11,7 +11,7 @@ Example of logged vehicle speed, longitudinal and lateral acceleration along the
 
 ![vehicle_view](docs/view_vehicle.png)
 
- Figure on the right: Scene view camera output recorded during experimental tests on Norwegian highways.
+Scene view camera output recorded during experimental tests.
 
 ## Dataset
 Please follow this [link](https://www.cars.polito.it/) to download the dataset (~5MB).
