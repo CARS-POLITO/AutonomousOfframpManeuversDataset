@@ -43,7 +43,7 @@ Example of signal data recording based on driver right turn indicator activation
 ## Citation
 If you find our work useful in your research, please consider citing:
 
-    @ARTICLE{Tramacerecomfort,
+    @ARTICLE{--,
   	    author={Tramacere, Eugenio and Castellonos, Luis and Luciani, Sara and Urgesi, Paolo and Amati, Nicola},
   	    journal={-}, 
   	    title={Estimation of passenger comfort level for autonomous highway off-ramp maneuvers}, 
