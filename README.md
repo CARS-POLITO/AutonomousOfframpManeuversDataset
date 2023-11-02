@@ -7,7 +7,7 @@ This experimental dataset is composed of ***78 off-ramp exit maneuvers*** travel
 This dataset is used for assessing the level of comfort associated with autonomous highway off-ramp maneuvers. As a consequence, each tested highway exit had to be carried out under **two different operating conditions** - **driving manually** for calibration purposes and **driving under vehicle autonomous control action**, called **AD-SW (AutonomousDriving-Software)** mode. 
 
 ![exterimental_test_location](docs/vehicledata.png)  
-Example of logged vehicle speed, longitudinal and lateral acceleration along the highway off-ramp exit Salhus/Flaktveit on E16.
+Example of logged vehicle speed, longitudinal and lateral acceleration along the highway off-ramp exit no. 44 Gjelleråsen/Nittedal/Hellerudsletta on E6.
 
 ![vehicle_view](docs/view_vehicle.png)
 
