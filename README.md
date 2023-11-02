@@ -37,7 +37,7 @@ Maneuvers
 ```
 
 ## Data description
-Please check our paper for a detailed data description. 
+Please check our paper for a detailed data description. The following provides a brief summary.
 
 ### Signals Recording
 Given the extended duration of each test, it becomes imperative to employ a methodology for extracting pertinent timestamps from the data. In our particular study, a tagging approach was implemented to fulfill this requirement. Therefore, when the driver activates the vehicle's right turn indicator, the autonomous control system is triggered to initiate the self-driving off-ramp manoeuvre. This is when manoeuvre data logging commences. Actually, active steering towards the highway deceleration ramp is triggered by the right turn indicator. Rather, the manoeuvre data logging ends when the autonomous controller deceleration request drops to 0, at which point the driver regains complete control of the vehicle, and active guidance is turned off.
