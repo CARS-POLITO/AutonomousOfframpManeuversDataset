@@ -2,7 +2,7 @@
 
 
 This repository contains the dataset and a description of the data used in [Estimation of passenger comfort level for autonomous highway off-ramp maneuvers](https://link.to.paper).
-This experimental dataset is composed of off-ramp exit maneuvers traveled along the Norwegian highways. Data are gathered on a [NIO](https://www.nio.com/) Battery Electric Vehicle (BEV) featured with L2+ driving automation functions. This study is conducted in a real-world environment, with the use of specific testing equipment. Data are acquired in the surroundings of Oslo, Bergen, Stavanger and Kristiansand.
+This experimental dataset is composed of 78 off-ramp exit maneuvers traveled along the Norwegian highways. Data are gathered on a [NIO](https://www.nio.com/) Battery Electric Vehicle (BEV) featured with L2+ driving automation functions. This study is conducted in a real-world environment, with the use of specific testing equipment. Data are acquired in the surroundings of Oslo, Bergen, Stavanger and Kristiansand.
 
 This dataset is used for assessing the level of comfort associated with autonomous highway off-ramp maneuvers. As a consequence, each tested highway exit had to be carried out under **two different operating conditions** - **driving manually** for calibration purposes and **driving under vehicle autonomous control action**, called **AD-SW (AutonomousDriving-Software)** mode. 
 
@@ -17,17 +17,23 @@ Scene view camera output recorded during experimental tests.
 Please follow this [link](https://www.cars.polito.it/research/research_data) to download the dataset (~5MB).
 
 ## Dataset structure
-The dataset has one folder, called **Maneuvers**, containing all the tested maneuvers, and a **Matlab script file** used to analyze the selected data (*Data_setup.m*). The **Maneuvers** folder contains 82 subdirectories called ***data_yearmonthdayTagxxxxxx***. Each folder contains the associated *.mat* file with the measured signals logged during experimental testing (***signals_yearmonthdayTagxxxxxx***).
+The dataset has one folder, called **Maneuvers**, containing all the tested maneuvers, and a **Matlab script file** used to visualize the selected data (*Data_setup.m*). The **Maneuvers** folder contains 78 subdirectories called ***data_yearmonthdayThourminutesecond***. Each folder contains the associated *.mat*, *.xls* and *.csv* files with the measured signals logged during experimental testing (***signals_yearmonthdayThourminutesecond***). 
 
 ```
 Maneuvers
-├── data_yearmonthdayTagxxxxxx
-│   ├── signals_yearmonthdayTagxxxxxx
-│   │   │── MeasList_LatA.. (Lateral acceleration signal [gs^{-2}]
-│   │   │── MeasList_LgtA.. (Longitudinal acceleration signal [gs^{-2}]
-│   │   │── MeasList_VehSpd.. (Vehicle speed signal [kmh^{-1}]
-│   │   │── MeasList_GPS_Longitude.. (Longitude position signal [° ' '']
-│   │   │── MeasList_GPS_Latitude.. (Latitude position signal [° ' '']
+├── data_yearmonthdayThourminutesecond
+│   ├── signals_yearmonthdayThourminutesecond
+│   │   │── Time_s.. (Time recorder [s])
+│   │   │── VehSpd_kph.. (Vehicle speed [kmh^{-1}])
+│   │   │── LgtA_mpss.. (Longitudinal acceleration [ms^{-2}])
+│   │   │── LatA_mpss.. (Lateral acceleration [ms^{-2}])
+│   │   │── DA_status_.. (Driver assistance status [-], 1 active, 0 idle)
+│   │   │── Right_turn_indic_.. (Right turn indicator [-], 1 active, 0 idle)
+│   │   │── GPS_lat_deg.. (GPS Latitude vehicle position [deg])
+│   │   │── GPS_lon_deg.. (GPS Longitude vehicle position [deg])
+│   │   │── GPS_lon_deg.. (GPS Longitude vehicle position [deg])
+│   │   │── GPS_timestamp_.. (GPS Time stamp [s])
+│   │   │── Curvature_m-1.. (Road Curvature estimation [m^{-1}])
 ```
 
 ## Data description
