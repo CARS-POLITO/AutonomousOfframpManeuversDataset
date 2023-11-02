@@ -48,7 +48,7 @@ Example of signal data recording based on driver right turn indicator activation
 
 ## Citation
 If you find our work useful in your research or use any part of the data provided in this repository, please cite it as:
-< José Ángel Martín-Baos, Julio Alberto López-Gómez, Luis Rodriguez-Benitez, Tim Hillel, Ricardo García-Ródenas (2023). A prediction and behavioural analysis of machine learning methods for modelling travel mode choice. Transportation Research Part C: Emerging Technologies, 156, 104318, DOI: [10.1016/j.trc.2023.104318](https://doi.org/10.1016/j.trc.2023.104318)
+> José Ángel Martín-Baos
 
     @ARTICLE{--,
   	    author={Tramacere, Eugenio and Castellonos, Luis and Luciani, Sara and Urgesi, Paolo and Amati, Nicola},
