@@ -48,7 +48,7 @@ Example of signal data recording based on driver right turn indicator activation
 
 ## Citation
 If you find our work useful in your research or use any part of the data provided in this repository, please cite it as:
-> José Ángel Martín-Baos
+> Eugenio Tramacere, Luis Castellanos, Sara Luciani, Paolo Urgesi, Nicola Amati (202x). Estimation of passenger comfort level for autonomous highway off-ramp maneuvers.
 
     @ARTICLE{--,
   	    author={Tramacere, Eugenio and Castellonos, Luis and Luciani, Sara and Urgesi, Paolo and Amati, Nicola},
