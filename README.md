@@ -17,7 +17,7 @@ Scene view camera output recorded during experimental tests.
 Please follow this [link](https://www.cars.polito.it/research/research_data) to download the dataset (~5MB).
 
 ## Dataset structure
-The dataset contains one folder, called **Maneuvers**, that includes all the tested maneuvers, and a **Matlab script file** used to visualize the selected data (*Data_setup.m*). The **Maneuvers** folder comprises 78 subdirectories called ***data_yearmonthdayThourminutesecond***. Each folder contains the associated *.mat*, *.xls* and *.csv* files with the measured signals logged during experimental testing (***signals_yearmonthdayThourminutesecond***). Below is the structure of a maneuver as an example.
+The dataset contains one folder, called **Maneuvers**, that includes all the tested maneuvers, and a **Matlab script file** used to visualize the selected data (*Data_setup.m*). The **Maneuvers** folder comprises 78 subdirectories called ***data_yearmonthdayThourminutesecond***. Each folder contains the associated *.mat*, *.xls* and *.csv* files with the measured signals logged during experimental testing (***signals_yearmonthdayThourminutesecond***). Below is the structure of an experimental maneuver as an example.
 
 ```
 Maneuvers
