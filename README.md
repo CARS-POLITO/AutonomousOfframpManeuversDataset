@@ -35,6 +35,8 @@ Maneuvers
 │   │   │── GPS_timestamp_.. (GPS Time stamp [s])
 │   │   │── Curvature_m-1.. (Road Curvature estimation [m^{-1}])
 ```
+To distinguish autonomous maneuvers from manual ones, it will be necessary to verify that signal *DA_status_* is 1, which means active.
+
 
 ## Data description
 Please check our paper for a detailed data description. The following provides a brief summary.
