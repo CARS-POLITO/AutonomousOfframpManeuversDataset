@@ -64,4 +64,4 @@ All data data are made available under a [CC 4.0 license](http://creativecommons
 The manuscript text is not open source. The authors reserve the rights to the article content, which is currently submitted for publication in *Transportation Research Part C: Emerging Technologies*.
 
 ## Acknowledgments
-The present research has been developed as a result of the cooperation between [CARS, Politecnico di Torino](https://www.cars.polito.it/) and [NIO](https://www.nio.com/). Special thanks to *Eng. Paolo Urgesi*. 
+The present research has been developed as a result of the cooperation between [CARS, Politecnico di Torino](https://www.cars.polito.it/) and [NIO](https://www.nio.com/). Special thanks to *Eng. Paolo Urgesi* who made this collaboration possible.
