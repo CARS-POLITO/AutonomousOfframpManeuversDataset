@@ -31,7 +31,6 @@ Maneuvers
 │   │   │── Right_turn_indic_.. (Right turn indicator [-], 1 active, 0 idle)
 │   │   │── GPS_lat_deg.. (GPS Latitude vehicle position [deg])
 │   │   │── GPS_lon_deg.. (GPS Longitude vehicle position [deg])
-│   │   │── GPS_lon_deg.. (GPS Longitude vehicle position [deg])
 │   │   │── GPS_timestamp_.. (GPS Time stamp [s])
 │   │   │── Curvature_m-1.. (Road Curvature estimation [m^{-1}])
 ```
