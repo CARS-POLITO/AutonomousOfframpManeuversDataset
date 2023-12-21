@@ -41,7 +41,7 @@ To distinguish autonomous maneuvers from manual ones, it will be necessary to ve
 Please check our paper for a detailed data description. The following provides a brief summary.
 
 ### Signals Recording
-Given the extended duration of each test, it becomes imperative to employ a methodology for extracting pertinent timestamps from the data. In our particular study, a tagging approach was implemented to fulfill this requirement. Therefore, when the driver activates the vehicle's right turn indicator, the autonomous control system is triggered to initiate the self-driving off-ramp manoeuvre. This is when manoeuvre data logging commences. Actually, active steering towards the highway deceleration ramp is triggered by the right turn indicator. Rather, the manoeuvre data logging ends when the *DA enable status* falls to 0. Thus, the active guidance is disabled and the driver takes full control of the vehicle.
+Given the extended duration of each test, it becomes imperative to employ a methodology for extracting pertinent timestamps from the data. In our particular study, a tagging approach was implemented to fulfill this requirement. Therefore, when the driver activates the vehicle's right turn indicator, the autonomous control system is triggered to initiate the self-driving off-ramp manoeuvre. Active steering towards the highway deceleration ramp is triggered by the right turn indicator. This is when manoeuvre data logging commences. Rather, the manoeuvre data logging ends when the *DA enable status* falls to 0. Thus, the active guidance is disabled and the driver takes full control of the vehicle.
 
 ![Tagging procedure](docs/taggingprocedure.png)
 
